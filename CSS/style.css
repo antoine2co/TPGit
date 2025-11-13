@@ -1,3 +1,31 @@
-input.bouton {
-    text-align: right;
+body {
+    text-align: center;
+    background-color: rgb(255, 158, 46);
+}
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+}
+
+#Norris1 {
+    margin-top: 100px;
+}
+p {
+    color: rgb(118, 0, 24);
+    font-size: larger; /* change la taille de la police */
+} 
+#gender {
+    margin-left: 50%;
+    margin-right: 25%;
+}
+
+.Titres {
+    text-align: center;
+    font-size: 52px;
+}
+
+.Sous-titres{
+    font-size: 48px;
 }
