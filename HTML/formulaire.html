@@ -1,0 +1,42 @@
+<!Doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Formulaire </title>
+		<link rel="stylesheet" href="../css/style.css">
+	</head>
+	<body>
+      <p><h1>Veuillez entrez vos informations</h1></p><br>
+
+	   <!--Création de mon formulaire-->
+		<form  action="../HTML/biographie.html" method="GET" class="form-group" name="formSaisie">
+			<table>
+				<tbody>
+                <tr>  <!--Username-->
+					<td>Nom d'utilisateur</td>
+                    <td><input type="text" name="Username" id="Username" width="300px"></td>
+                </tr>
+				<tr>  <!--Le numero de telephone de la personne-->
+					<td>Téléphone</td>
+                    <td><input type="tel" name="tel" id="tel"></td>
+                </tr>
+				<tr>  <!--Le mail de la personne-->
+					<td>Email</td>
+                    <td><input type="email" name="mail" id="mail"></td>
+                </tr>
+                <tr>  <!--Le genre de la personne-->
+					<td id="gender">Genre</td>
+                    <td id="idH"><input type="radio" class="custom-radio" name="genre">Homme</td>
+                    <td id="idF"><input type="radio" class="custom-radio" name="genre" >Femme</td>
+					<td id="idA"><input type="radio" class="custom-radio" name="genre" >Autre</td>
+                </tr>
+				</tbody>
+			</table>
+ 			<!--Boutons permettant de renvoyer la personne ayant cliquer dessus sur une autre page; ou de reset le magnifique page-->
+			<input type="submit" class="btn-expand btn-primary" value="Valider">
+			<input type="reset" class="btn-expand" value="Effacer le formulaire">
+		</form>
+        <img src="../IMG/norris_1.webp" id="Norris1" >
+        <p>Chuck Norris n'attend que vous... rejoinez-le !</p>
+	</body>
+</html>
