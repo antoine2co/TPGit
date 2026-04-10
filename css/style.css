@@ -20,3 +20,8 @@ input.bouton {
     align-content:center;
     text-align:center;
 }
+.formulaire{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 0.8em;
+}
